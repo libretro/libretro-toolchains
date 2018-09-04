@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /home/buildbot/tools
+
+tar -Jcvf wiiu.tar.xz --exclude=.git wiiu/lib* wiiu/wut devkitpro/aemstro devkitpro/ctrulib devkitpro/devkitPPC devkitpro/lib* devkitpro/picasso devkitpro/portlibs
