@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /home/buildbot/tools
+
+tar -Jcvf psp.tar.xz --exclude=.git devkitpro/devkitPSP
